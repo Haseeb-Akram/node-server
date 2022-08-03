@@ -1,0 +1,37 @@
+{
+  "name": "fmc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fmc",
+    "nodejs",
+    "backend"
+  ],
+  "author": "Techno-soft Lahore",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-ntlm": "^2.6.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-ldapauth": "^3.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
